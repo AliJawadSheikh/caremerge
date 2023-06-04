@@ -1,0 +1,24 @@
+{
+  "name": "caremerge-assessment",
+  "version": "1.0.0",
+  "description": "This project is a Recruitment Assessment for CareAxiom",
+  "main": "index.js",
+  "scripts": {
+    "task1": "node src/callbacks-server.js",
+    "task2": "node src/async-server.js",
+    "task3": "node src/rsvp-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "caremerge"
+  },
+  "keywords": [
+    "assessment"
+  ],
+  "author": "Ali Jawad",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "rsvp": "^4.8.5"
+  }
+}
